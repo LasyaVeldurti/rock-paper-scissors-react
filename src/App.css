@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-color: #223a5f;
+  height: 100vh;
+  font-family: Bree Serif;
+  color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.heading-container {
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+.score-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #223a5f;
+  border-radius: 10px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.rules-btn {
+  background-color: #ffffff;
+  color: #223a5f;
+  padding: 12px;
+  border-style: none;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+.choice-img {
+  width: 100px;
+  height: 100px;
+}
+.btn-img {
+  background: transparent;
+  border-style: none;
+}
